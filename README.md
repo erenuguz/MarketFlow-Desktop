@@ -23,8 +23,8 @@
 
 ### 🔧 Installation
 1. **Clone:** `git clone https://github.com/yourusername/MarketFlow-POS.git`
-2. **Database:** Import `database/veritabani_yapisi.sql` into your local MySQL.
-3. **Config:** Update `src/kasiyerUygulamasi/DBConnection.java` with your DB credentials.
+2. **Database:** Import `database/database_structure.sql` into your local MySQL.
+3. **Config:** Update `src/DBConnection.java` with your DB credentials.
 4. **Library:** Add `mysql-connector-j` (in `/lib`) to your Build Path.
 
 ---
@@ -43,8 +43,8 @@
 
 ### 🔧 Kurulum
 1. **Klonlayın:** `git clone https://github.com/kullaniciadi/MarketFlow-POS.git`
-2. **Veritabanı:** `/database/veritabani_yapisi.sql` dosyasını MySQL'e içe aktarın.
-3. **Yapılandırma:** `src/kasiyerUygulamasi/DBConnection.java` dosyasını kendi veritabanı bilgilerinizle güncelleyin.
+2. **Veritabanı:** `/database/database_structure.sql` dosyasını MySQL'e içe aktarın.
+3. **Yapılandırma:** `src/DBConnection.java` dosyasını kendi veritabanı bilgilerinizle güncelleyin.
 4. **Kütüphane:** `/lib` klasöründeki MySQL sürücüsünü projenize dahil edin.
 
 ---
